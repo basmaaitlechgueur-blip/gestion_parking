@@ -1,85 +1,206 @@
-📚 Gestion de Parking
+# 📚 Gestion de Parking
 
+---
 
-📁 Table des matières
+## 📁 Table de matieres
 
-Contexte
+- [🗂 Contexte](#-Contexte)
+- [❓ Problématique](#-Problématique)
+- [🎯 Objectif](#-Objectif)
+- [📊 Diagrammes](#-Diagrammes)
+- [🗃 Tables de Données](#-Tables-de-Données)
+- [✨ Fonctionnalités Principales](#-Fonctionnalités-Principales)
+- [🔍 Requêtes SQL](#-Requêtes-sql)
+- [🛠 Technologies Utilisées](#-Technologies-Utilisées)
+- [🎥 Démo Vidéo](#-Démo-video)
 
-Problématique
+---
+## 🗂 Contexte :
 
-Objectif
+Dans le domaine de la gestion des parkings, l'organisation efficace des places de stationnement, le suivi des véhicules et la gestion des entrées/sorties sont essentiels pour assurer un service fluide et éviter les conflits d'occupation.
+Les méthodes traditionnelles basées sur des registres papier ou des fichiers Excel peuvent entraîner des erreurs, des chevauchements de réservation et une mauvaise optimisation de l'espace.
+Afin d'améliorer la gestion quotidienne d'un parking, il est nécessaire de mettre en place une application informatique permettant d'automatiser les opérations principales comme la gestion des places, l'enregistrement des stationnements et le calcul automatique des montants.
 
-Diagrammes
-
-Tables de Données
-
-Fonctionnalités Principales
-
-Requêtes SQL
-
-Architecture
-
-Technologies Utilisées
-
-Démo Vidéo
-
-
-🗂 Contexte
-
-Dans le domaine de la gestion des parkings, l'organisation efficace des places de stationnement, le suivi des véhicules et la gestion des entrées/sorties sont essentiels pour assurer un service fluide et éviter les conflits d'occupation. Les méthodes traditionnelles basées sur des registres papier ou des fichiers Excel peuvent entraîner des erreurs, des chevauchements de réservation et une mauvaise optimisation de l'espace. Afin d'améliorer la gestion quotidienne d'un parking, il est nécessaire de mettre en place une application informatique permettant d'automatiser les opérations principales comme la gestion des places, l'enregistrement des stationnements et le calcul automatique des montants.
-
-
-❓ Problématique
+---
+## ❓ Problématique:
 
 Les gestionnaires de parkings rencontrent souvent plusieurs difficultés dans leur gestion quotidienne :
+- Difficulté à suivre en temps réel la disponibilité des places
+- Risque de chevauchement des réservations
+- Gestion manuelle des entrées/sorties peu fiable
+- Calcul complexe des montants de stationnement
+- Manque de centralisation des informations des véhicules
+- Absence de statistiques pour analyser le taux d'occupation et les revenus
+- Ces limites rendent la gestion moins efficace et compliquent la prise de décision pour optimiser l'utilisation du parking.
 
-Difficulté à suivre en temps réel la disponibilité des places
+- ---
 
-Risque de chevauchement des réservations
-
-Gestion manuelle des entrées/sorties peu fiable
-
-Calcul complexe des montants de stationnement
-
-Manque de centralisation des informations des véhicules
-
-Absence de statistiques pour analyser le taux d'occupation et les revenus
-
-Ces limites rendent la gestion moins efficace et compliquent la prise de décision pour optimiser l'utilisation du parking.
+## 🎯 Objectif:
 
 
-🎯 Objectif
+L'objectif de ce projet est de développer une application desktop permettant de faciliter la gestion d'un parking à travers une interface simple et intuitive.
+L'application vise à :
+- Gérer les places de stationnement (type, statut, tarif)
+- Gérer les véhicules et leurs informations
+- Enregistrer les entrées et sorties des véhicules
+- Calculer automatiquement le montant dû en fonction de la durée
+- Générer des statistiques sur le taux d'occupation et les revenus
 
-L'objectif de ce projet est de développer une application desktop permettant de faciliter la gestion d'un parking à travers une interface simple et intuitive. L'application vise à :
-
-Gérer les places de stationnement (type, statut, tarif)
-
-Gérer les véhicules et leurs informations
-
-Enregistrer les entrées et sorties des véhicules
-
-Calculer automatiquement le montant dû en fonction de la durée
-
-Empêcher les chevauchements de stationnement
-
-Consulter l'historique des stationnements par véhicule
-
-Filtrer et rechercher des informations
-
-Générer des statistiques sur le taux d'occupation et les revenus
-
-L'application doit également inclure un système d'authentification sécurisé avec gestion des utilisateurs et récupération de mot de passe par email.
+---
+## L'application doit :
 
 
-📊 Diagrammes
+- Permettre l'ajout, modification et suppression des places de stationnement
+- Gérer les véhicules liés aux stationnements
+- Enregistrer les entrées et sorties des véhicules
+- Mettre à jour automatiquement le statut des places après chaque stationnement
+- Afficher les statistiques (ex : taux d'occupation, revenus par période)
 
-Diagramme de cas d'utilisation:
-<img width="1344" height="887" alt="Screenshot (408)" src="https://github.com/user-attachments/assets/9f979358-d314-4d1f-8d00-e42d949d56df" />
+
+## 📊 Diagrammes :
+
+##  Diagramme de cas d'utilisation:
+
+
+<img width="1344" height="887" alt="Screenshot (408)" src="https://github.com/user-attachments/assets/b70f0b44-1ccb-4b7a-ac2f-f9723704804f" />
 
 
 
+---
+##  Diagramme de classe :
 
-Diagramme de classes:
-<img width="957" height="596" alt="Screenshot (409)" src="https://github.com/user-attachments/assets/950638bf-bc30-4d66-83a2-72ac07a87749" />
+
+<img width="957" height="596" alt="Screenshot (409)" src="https://github.com/user-attachments/assets/faa47df9-0609-4ffe-94c5-b9a7b0347453" />
+
+---
+## 🗃 Tables de Données:
+
+
+-Place ( , numero , type , statut , tarifHoraire )
+
+-Vehicule (  immatricule , marque , categorie )
+
+-Stationnement( id , numero, matricule, dateEntree , dateSortie , montant )
+
+-Utilisateur( id ,  nomUtilisateur, motDePasse , role , email,datecreation,reset-token,reset-token-expiry )
+
+---
+## ✨ Fonctionnalités Principales:
+
+
+1. *Gestion des places*
+
+   
+Ajouter une place : Formulaire pour saisir le numéro, type (Auto/Moto/PMR), statut (Libre/Occupée) et tarif horaire
+
+Modifier une place : Mettre à jour les informations d'une place existante
+
+Supprimer une place : Retirer une place de la base de données
+
+Lister les places : Afficher toutes les places dans un tableau avec leur statut en temps réel
+
+Filtrer les places : Par type (Auto, Moto, PMR) ou par statut (Libre, Occupée)
+
+
+2. *Gestion des véhicules*
+
+   
+Ajouter un véhicule : Saisie du matricule, de la marque et de la catégorie (Auto/Moto)
+
+Modifier un véhicule : Mettre à jour les données d'un véhicule existant
+
+Supprimer un véhicule : Retirer un véhicule de la base de données
+
+Lister les véhicules : Afficher la liste des véhicules enregistrés
+
+Rechercher un véhicule : Par matricule ou par marque
+
+
+3. *Gestion des stationnements*
+
+ 
+Enregistrer une entrée : Sélectionner une place libre et un véhicule, enregistrement automatique de la date/heure
+
+Enregistrer une sortie : Calcul automatique du montant (durée × tarif) et libération de la place
+
+Empêcher les chevauchements : Vérification qu'une place ne peut être occupée deux fois simultanément
+
+Consulter l'historique : Afficher tous les stationnements avec leurs détails
+
+Rechercher par matricule : Voir l'historique complet d'un véhicule spécifique
+
+
+4. *Filtrage et recherche*
+
+
+Filtrer les places : Par type (Auto, Moto, PMR) ou par statut (Libre, Occupée)
+
+Filtrer les stationnements : Par période (date de début et date de fin)
+
+Rechercher : Par matricule de véhicule dans l'historique
+
+Filtrer les résultats : Interface intuitive avec comboBox et champs de recherche
+
+
+5. *Statistiques*
+
+ 
+Taux d'occupation par mois : Pourcentage de temps d'occupation des places
+
+Revenus mensuels : Montant total perçu par mois
+
+Statistiques par type : Occupation et revenus par type de place (camemberts)
+
+Graphiques interactifs : Visualisation des données avec JFreeChart
+
+
+6. *Authentification et sécurité*
+
+   
+Connexion sécurisée : Vérification des identifiants avec hashage BCrypt
+
+Gestion des utilisateurs : Différents rôles (admin, user) avec permissions
+
+Récupération de mot de passe :
+
+Envoi d'un code à 6 chiffres par email
+
+Validation du code (valable 15 minutes)
+
+Réinitialisation du mot de passe
+
+Protection des données : Aucun mot de passe stocké en clair
+
+
+7. *Interface utilisateur*
+
+   
+Fenêtre principale avec menu (Gestion, Recherche, Graphes, Aide)
+
+Fenêtres internes (JInternalFrame) pour chaque module
+
+Barre de statut : Informations sur la connexion à la base de données
+
+Messages de confirmation et d'erreur avec JOptionPane
+
+Design intuitif : Couleurs apaisantes (fond rose pâle #FFCCCC)
+
+---
+##  🔍 Requêtes sql 
+
+
+Création des tables:
+
+CREATE TABLE `place` (
+  `numero` int(11) NOT NULL,
+  `type` varchar(20) NOT NULL,
+  `statut` varchar(20) NOT NULL,
+  `tarifHoraire` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+
+
 
 
