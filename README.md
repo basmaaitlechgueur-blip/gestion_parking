@@ -216,7 +216,8 @@ Création des tables:
 
 <img width="771" height="292" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/fc455e9a-4a37-498a-b23a-4dbdc1f9da83" />
 
-<img width="771" height="292" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/d652fe4b-2cf3-4a40-ab58-0136751c249b" />
+<img width="792" height="201" alt="Screenshot (458)" src="https://github.com/user-attachments/assets/bedc409a-8809-4edf-8a4a-60b5e6500fdf" />
+
 
 ---
 
