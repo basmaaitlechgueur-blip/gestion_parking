@@ -11,7 +11,7 @@
 - [🗃 Tables de Données](#-Tables-de-Données)
 - [✨ Fonctionnalités Principales](#-Fonctionnalités-Principales)
 - [🔍 Requêtes SQL](#-Requêtes-sql)
-- Architecture
+-- Architecture
 - [🛠 Technologies Utilisées](#-Technologies-Utilisées)
 - [🎥 Démo Vidéo](#-Démo-video)
 
