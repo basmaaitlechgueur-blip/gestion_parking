@@ -10,8 +10,8 @@
 - [📊 Diagrammes](#-Diagrammes)
 - [🗃 Tables de Données](#-Tables-de-Données)
 - [✨ Fonctionnalités Principales](#-Fonctionnalités-Principales)
-- [🔍 Requêtes SQL](#-Requêtes-sql)
--- Architecture
+- [🔍 Requêtes SQL](#-Requêtes SQL)
+- [Architecture (#-Architecture)
 - [🛠 Technologies Utilisées](#-Technologies-Utilisées)
 - [🎥 Démo Vidéo](#-Démo-video)
 
@@ -242,7 +242,7 @@ NetBeans (IDE Java)
 StarUml (Outil de diagramme)
 - **Gestion de base de données :** MYSQL Workbench
 
-- 
+
 ---
 ## 🎥 Démo video
 
