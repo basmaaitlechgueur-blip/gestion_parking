@@ -78,6 +78,7 @@ Diagramme de cas d'utilisation:
 
 
 
+
 Diagramme de classes:
 <img width="957" height="596" alt="Screenshot (409)" src="https://github.com/user-attachments/assets/950638bf-bc30-4d66-83a2-72ac07a87749" />
 
