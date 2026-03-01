@@ -10,8 +10,8 @@
 - [📊 Diagrammes](#-Diagrammes)
 - [🗃 Tables de Données](#-Tables-de-Données)
 - [✨ Fonctionnalités Principales](#-Fonctionnalités-Principales)
-- [🔍 Requêtes SQL](#-Requêtes SQL)
-- [Architecture (#-Architecture)
+- [🔍 Requêtes SQL](#-Requêtes-sql)
+- [Architecture](#-Architecturel)
 - [🛠 Technologies Utilisées](#-Technologies-Utilisées)
 - [🎥 Démo Vidéo](#-Démo-video)
 
