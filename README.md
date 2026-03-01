@@ -155,6 +155,7 @@ Filtrer les résultats : Interface intuitive avec comboBox et champs de recherch
 
 5. *Statistiques*
 
+---
  
 Taux d'occupation par mois : Pourcentage de temps d'occupation des places
 
@@ -203,8 +204,11 @@ Design intuitif : Couleurs apaisantes (fond rose pâle #FFCCCC)
 ---
 ##  🔍 Requêtes sql 
 
+---
 
 Création des tables:
+
+---
 
 <img width="750" height="216" alt="Screenshot (455)" src="https://github.com/user-attachments/assets/d5dded59-a001-4be2-bf2b-388b34bc0c8a" />
 
@@ -214,10 +218,12 @@ Création des tables:
 
 <img width="771" height="292" alt="Screenshot (457)" src="https://github.com/user-attachments/assets/d652fe4b-2cf3-4a40-ab58-0136751c249b" />
 
+---
 
 ``
 🏛 Architecture
 
+---
 
 <img width="345" height="581" alt="Screenshot (450)" src="https://github.com/user-attachments/assets/f4b76627-0a4d-43dd-8d11-bd6445dd5cb3" />
 
@@ -225,6 +231,7 @@ Création des tables:
 ---
 
 ## 🛠 Technologies Utilisées:
+---
 
 - **Framework d'interface graphique :** Java Swing
 - **Base de données :** MySQL
