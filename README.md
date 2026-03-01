@@ -25,10 +25,12 @@ Démo Vidéo
 
 
 🗂 Contexte
+
 Dans le domaine de la gestion des parkings, l'organisation efficace des places de stationnement, le suivi des véhicules et la gestion des entrées/sorties sont essentiels pour assurer un service fluide et éviter les conflits d'occupation. Les méthodes traditionnelles basées sur des registres papier ou des fichiers Excel peuvent entraîner des erreurs, des chevauchements de réservation et une mauvaise optimisation de l'espace. Afin d'améliorer la gestion quotidienne d'un parking, il est nécessaire de mettre en place une application informatique permettant d'automatiser les opérations principales comme la gestion des places, l'enregistrement des stationnements et le calcul automatique des montants.
 
 
 ❓ Problématique
+
 Les gestionnaires de parkings rencontrent souvent plusieurs difficultés dans leur gestion quotidienne :
 
 Difficulté à suivre en temps réel la disponibilité des places
@@ -70,6 +72,7 @@ L'application doit également inclure un système d'authentification sécurisé 
 
 
 📊 Diagrammes
+
 Diagramme de cas d'utilisation:
 <img width="1344" height="887" alt="Screenshot (408)" src="https://github.com/user-attachments/assets/9f979358-d314-4d1f-8d00-e42d949d56df" />
 
