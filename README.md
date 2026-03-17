@@ -1,29 +1,29 @@
-# 📚 Gestion de Parking
+#  Gestion de Parking
 
 ---
 
-## 📁 Table de matieres
+##  Table de matieres
 
-- [🗂 Contexte](#-Contexte)
-- [❓ Problématique](#-Problématique)
-- [🎯 Objectif](#-Objectif)
-- [📊 Diagrammes](#-Diagrammes)
-- [🗃 Tables de Données](#-Tables-de-Données)
-- [✨ Fonctionnalités Principales](#-Fonctionnalités-Principales)
-- [🔍 Requêtes SQL](#-Requêtes-sql)
+- [ Contexte](#-Contexte)
+- [ Problématique](#-Problématique)
+- [ Objectif](#-Objectif)
+- [ Diagrammes](#-Diagrammes)
+- [ Tables de Données](#-Tables-de-Données)
+- [ Fonctionnalités Principales](#-Fonctionnalités-Principales)
+- [ Requêtes SQL](#-Requêtes-sql)
 - [Architecture](#-Architecturel)
-- [🛠 Technologies Utilisées](#-Technologies-Utilisées)
-- [🎥 Démo Vidéo](#-Démo-video)
+- [ Technologies Utilisées](#-Technologies-Utilisées)
+- [ Démo Vidéo](#-Démo-video)
 
 ---
-## 🗂 Contexte :
+##  Contexte :
 
 Dans le domaine de la gestion des parkings, l'organisation efficace des places de stationnement, le suivi des véhicules et la gestion des entrées/sorties sont essentiels pour assurer un service fluide et éviter les conflits d'occupation.
 Les méthodes traditionnelles basées sur des registres papier ou des fichiers Excel peuvent entraîner des erreurs, des chevauchements de réservation et une mauvaise optimisation de l'espace.
 Afin d'améliorer la gestion quotidienne d'un parking, il est nécessaire de mettre en place une application informatique permettant d'automatiser les opérations principales comme la gestion des places, l'enregistrement des stationnements et le calcul automatique des montants.
 
 ---
-## ❓ Problématique:
+##  Problématique:
 
 Les gestionnaires de parkings rencontrent souvent plusieurs difficultés dans leur gestion quotidienne :
 - Difficulté à suivre en temps réel la disponibilité des places
@@ -35,8 +35,7 @@ Les gestionnaires de parkings rencontrent souvent plusieurs difficultés dans le
 - Ces limites rendent la gestion moins efficace et compliquent la prise de décision pour optimiser l'utilisation du parking.
 
 - ---
-
-## 🎯 Objectif:
+##  Objectif:
 
 
 L'objectif de ce projet est de développer une application desktop permettant de faciliter la gestion d'un parking à travers une interface simple et intuitive.
@@ -59,7 +58,7 @@ L'application vise à :
 
 ---
 
-## 📊 Diagrammes :
+##  Diagrammes :
 ---
 
 ##  Diagramme de cas d'utilisation:
@@ -76,7 +75,7 @@ L'application vise à :
 <img width="957" height="596" alt="Screenshot (409)" src="https://github.com/user-attachments/assets/faa47df9-0609-4ffe-94c5-b9a7b0347453" />
 
 ---
-## 🗃 Tables de Données:
+##  Tables de Données:
 ---
 
 -Place ( , numero , type , statut , tarifHoraire )
@@ -88,7 +87,7 @@ L'application vise à :
 -Utilisateur( id ,  nomUtilisateur, motDePasse , role , email,datecreation,reset-token,reset-token-expiry )
 
 ---
-## ✨ Fonctionnalités Principales:
+##  Fonctionnalités Principales:
 
 
 1. *Gestion des places*
@@ -202,7 +201,7 @@ Messages de confirmation et d'erreur avec JOptionPane
 Design intuitif : Couleurs apaisantes (fond rose pâle #FFCCCC)
 
 ---
-##  🔍 Requêtes sql 
+##   Requêtes sql 
 
 ---
 
@@ -222,7 +221,7 @@ Création des tables:
 ---
 
 ``
-🏛 Architecture
+ Architecture
 
 ---
 
@@ -231,7 +230,7 @@ Création des tables:
 
 ---
 
-## 🛠 Technologies Utilisées:
+##  Technologies Utilisées:
 ---
 
 - **Framework d'interface graphique :** Java Swing
@@ -244,14 +243,14 @@ StarUml (Outil de diagramme)
 
 
 ---
-## 🎥 Démo video
+##  Démo video
 
 
 
 https://github.com/user-attachments/assets/6b69fc47-04e2-4bdf-8f00-3582f33438e7
 
 ---
-👩‍💻 Auteur
+Auteur
 ---
   AIT LECHGUEUR basma
   
